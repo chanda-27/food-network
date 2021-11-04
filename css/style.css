@@ -12,17 +12,15 @@ h1{
 
 .flexible-container{
   display: flex;
-  margin-bottom: 100px;
   }
 
   .padding-top{
     padding-top: 100px;
     padding-left:100px;
   }
-  
+ 
 .half-width{
   width: 50%; 
-  
 }
 
 .half-width img{
@@ -34,7 +32,21 @@ h1{
   background-image: linear-gradient(red,orange);
   padding: 10px 20px;
   border-radius: 20px;
-  
+  color: white;
+}
+
+.relative {
+  position: relative;
+  height: 600px;
+}
+
+.absolute {
+  position: absolute;
+  bottom: 0;
+}
+
+.button {
+  margin-top: 50px;
 }
 .image-left{
   padding-left: 100px;
@@ -47,21 +59,105 @@ h1{
  .padding-right{
    padding-right: 50px;
  }
- .section-firstdiv{
-   text-align: center;
+ 
+ /* Extra Section */
+ img {
+   width: 100%;
  }
 
- .pra-graph{
-   padding: 0px 350px;
+#recipy {
+  /* background-color: #f0f; */
+  padding: 30px 0;
+}
+
+.c2 {
+  width: 33%;
+  display: inline-block;
+  margin: auto;
+  padding-bottom: 40px;
+}
+
+.d {
+  margin: 0 20px;
+}
+
+.d img {
+  border-radius: 20px;
+  height: 200px;
+}
+
+.p-2 {
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 40px gray;
+}
+
+.b {
+  width: 80%;
+  margin: auto;
+  /* box-shadow: 10px 10px 40px gray; */
+}
+.b1 {
+  text-align: center;
+  width: 60%;
+  margin: auto;
+  color: gray;
+  padding: 20px 0;
  }
 
- .box-shadow{
-  width: 22%;
-  display: inline-block; 
-  margin-left: 5%;
-  margin-right: 5%;
-  box-shadow: 10 10 10 gray;  
- }
- .recipy-image{
-  width: 100%;
- }
+.main-div{
+  display: flex;
+  justify-content: center;
+  box-shadow: 10px 10px 40px gray;
+  padding: 20px 0px;
+  /* margin: 100px 160px; */
+  border-radius: 20px;
+  width: 75%;
+  margin: 100px auto;
+}
+.like-comment{
+  padding: 20px 60px;
+}
+.text{
+  margin: 0px;
+}
+
+.like-comment p {
+  margin-top: 0;
+}
+.footer-part{
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 60px 0px;
+}
+.one-word{
+  color: orange;
+}
+
+/* Menu styles */
+.menu-item {
+  display: inline-block;
+}
+
+.menu {
+  float: right;
+  margin-top: 24.9px;
+}
+
+.inline {
+  display: inline-block;
+}
+
+.menu-item {
+  padding: 0 10px;
+}
+
+.nav-box {
+  padding: 0 20px;
+}
+
+#navbar {
+  background-color: navy;
+  color: white;
+}
